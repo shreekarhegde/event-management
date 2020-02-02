@@ -1,0 +1,34 @@
+<nav>
+  <ul
+    class="d-flex justify-content-around p-2 bg-primary text-white font-thrity"
+  >
+    <li
+      [ngClass]="selected === 'Home' ? 'active' : ''"
+      (click)="onClick('Home')"
+      class="w-25 text-center"
+    >
+      Home
+    </li>
+    <li
+      [ngClass]="selected === 'About Us' ? 'active' : ''"
+      (click)="onClick('About Us')"
+      class="w-25 text-center"
+    >
+      About Us
+    </li>
+    <li
+      [ngClass]="selected === 'Contact Us' ? 'active' : ''"
+      (click)="onClick('Contact Us')"
+      class="w-25 text-center"
+    >
+      Contact Us
+    </li>
+    <li
+      [ngClass]="selected === 'Events' ? 'active' : ''"
+      (click)="onClick('Events')"
+      class="w-25 text-center"
+    >
+      Events
+    </li>
+  </ul>
+</nav>

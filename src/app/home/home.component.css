@@ -1,0 +1,23 @@
+.font-thrity {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.active {
+  cursor: pointer;
+  background-color: white;
+  color: #007bff;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
