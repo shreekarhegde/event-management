@@ -2,5 +2,32 @@
   <app-top-nav></app-top-nav>
 </div>
 <div *ngFor="let image of images">
-  <img class="mt-5" [src]="image" height="500px" width="500px" alt="txt" />
+  <div class="card mb-3 mt-0">
+    <div class="row no-gutters">
+      <div class="col-md-6" style="max-width: 500px; max-height: 400px;">
+        <img [src]="image" class="card-img" alt="image" />
+      </div>
+      <div class="col-md-6 m-auto">
+        <div class="card-body">
+          <p>No. 1</p>
+          <h1
+            class="card-title"
+            style="font-family: lust,Helvetica Neue,Helvetica,Arial,sans-serif;"
+          >
+            Card title
+          </h1>
+          <p
+            class="card-text"
+            style="font-family: Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif;"
+          >
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

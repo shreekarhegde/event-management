@@ -1,0 +1,17 @@
+.no-gutters {
+  background-color: #eae3e1;
+  height: inherit;
+}
+
+img,
+.card {
+  max-height: 600px;
+}
+
+.card-title {
+  font-size: 75px;
+  top: auto;
+}
+.card {
+  height: 600px;
+}
