@@ -6,13 +6,8 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./home.component.css"]
 })
 export class HomeComponent implements OnInit {
-  selected: string = "Home";
+  images = ["../../assets/image1.jpeg"];
   constructor() {}
 
   ngOnInit() {}
-
-  onClick(current: string) {
-    console.log("current: onClick", current);
-    this.selected = current;
-  }
 }
