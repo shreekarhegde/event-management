@@ -1,6 +1,7 @@
 <nav>
   <ul class="d-flex justify-content-center p-2 text-black font-thrity">
     <li
+      routerLink="/"
       [ngClass]="selected === 'Home' ? 'active' : ''"
       (click)="onClick('Home')"
       class="w-20 text-center"
@@ -8,6 +9,7 @@
       Home
     </li>
     <li
+      routerLink="/about"
       [ngClass]="selected === 'About Us' ? 'active' : ''"
       (click)="onClick('About Us')"
       class="w-20 text-center"
